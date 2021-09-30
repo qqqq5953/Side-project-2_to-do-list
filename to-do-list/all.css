@@ -1,0 +1,75 @@
+.wrap {
+  width           : 60%;
+  margin          : 0 auto;
+  background-color: lightblue;
+  height          : 100%;
+  border          : 1px solid #999999;
+  border-radius   : 5px;
+  padding         : 10px 15px 0 15px;
+  margin-top      : 20px;
+}
+
+@media(max-width:506px) {
+  .wrap {
+    width  : 95%;
+    padding: 10px 5px 0 5px;
+  }
+
+  .addContent::placeholder {
+    font-size: 1２px;
+  }
+}
+
+h1 {
+  text-align   : center;
+  font-size    : 40px;
+  font-weight  : bold;
+  margin-bottom: 10px;
+}
+
+.input-area {
+  text-align    : right;
+  border-bottom : 1px dotted gray;
+  padding-bottom: 10px;
+}
+
+.addContent {
+  width        : 25%;
+  border       : 1px solid #777777;
+  padding      : 5px 10px;
+  font-size    : 16px;
+  border-radius: 5px;
+}
+
+.addContent::placeholder {
+  font-size: 14px;
+}
+
+.saveBtn {
+  border       : 1px solid #777777;
+  padding      : 5px 10px;
+  font-size    : 16px;
+  cursor       : pointer;
+  border-radius: 5px;
+}
+
+.list {
+  margin     : 0 auto;
+  padding-top: 13px;
+}
+
+.list li {
+  border-radius   : 5px;
+  margin-bottom   : 20px;
+  padding         : 10px 20px;
+  display         : flex;
+  justify-content : space-between;
+  align-items     : center;
+  background-color: #454545;
+  color           : white;
+  font-size       : 20px;
+}
+
+.deleteContent {
+  display: block;
+}
